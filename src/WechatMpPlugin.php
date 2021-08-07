@@ -14,6 +14,8 @@ class WechatMpPlugin extends BasePlugin
      */
     protected $name = '微信小程序';
 
+    protected $code = 212;
+
     public function onAdminNavGetNavs(&$navs, &$categories, &$subCategories)
     {
         $subCategories[] = [
