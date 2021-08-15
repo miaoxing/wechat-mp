@@ -3,9 +3,7 @@
 namespace Miaoxing\WechatMp;
 
 use Miaoxing\Plugin\BasePlugin;
-use Miaoxing\Wxa\Middleware\Auth;
 use Miaoxing\Wxa\Payment\WxaPay;
-use Wei\BaseController;
 
 class WechatMpPlugin extends BasePlugin
 {
@@ -23,11 +21,6 @@ class WechatMpPlugin extends BasePlugin
             'url' => 'admin/wechat-mp/account',
             'name' => '小程序设置',
         ];
-    }
-
-    public function onPreControllerInit(BaseController $controller)
-    {
-        $controller->middleware(Auth::class);
     }
 
     public function onPaymentGetTypes(&$types)
