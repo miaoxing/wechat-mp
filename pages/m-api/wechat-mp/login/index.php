@@ -3,7 +3,7 @@
 use Miaoxing\Plugin\BaseController;
 use Miaoxing\Plugin\Service\User;
 use Miaoxing\User\Service\UserModel;
-use Miaoxing\Wechat\Service\WechatAccountModel;
+use Miaoxing\WechatMp\Service\WechatMpAccountModel;
 use Miaoxing\WechatMp\Service\WechatMpUserModel;
 
 return new class extends BaseController {
@@ -12,8 +12,12 @@ return new class extends BaseController {
     public function post($req)
     {
         // 1. code 换取 OpenID
-        $account = WechatAccountModel::findBy('type', WechatAccountModel::TYPE_MP);
-        $api = $account->createApiService();
+        $account = WechatMpAccountModel::first();
+        if (!$account) {
+            return err('未设置小程序账号');
+        }
+
+        $api = $account->getApi();
         $ret = $api->jsCode2Session(['js_code' => $req['code']]);
         if ($ret['code'] !== 0) {
             return $ret;

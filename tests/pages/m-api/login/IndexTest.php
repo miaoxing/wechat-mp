@@ -4,8 +4,8 @@ namespace MiaoxingTest\WechatMp\Pages\MApi\Login;
 
 use Miaoxing\Plugin\Service\Tester;
 use Miaoxing\Plugin\Test\BaseTestCase;
-use Miaoxing\Wechat\Service\WechatAccountModel;
 use Miaoxing\Wechat\Service\WechatApi;
+use Miaoxing\WechatMp\Service\WechatMpAccountModel;
 
 class IndexTest extends BaseTestCase
 {
@@ -15,7 +15,7 @@ class IndexTest extends BaseTestCase
             'jsCode2Session',
         ]);
 
-        $account = $this->getModelServiceMock(WechatAccountModel::class, [
+        $account = $this->getModelServiceMock(WechatMpAccountModel::class, [
             'findBy',
             'getApi',
         ]);

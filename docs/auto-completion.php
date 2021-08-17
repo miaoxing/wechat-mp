@@ -1,6 +1,13 @@
 <?php
 
 /**
+ * @property    Miaoxing\WechatMp\Service\WechatMpAccountModel $wechatMpAccountModel
+ * @method      Miaoxing\WechatMp\Service\WechatMpAccountModel wechatMpAccountModel() 返回当前对象
+ */
+class WechatMpAccountModelMixin {
+}
+
+/**
  * @property    Miaoxing\WechatMp\Service\WechatMpUserModel $wechatMpUserModel
  * @method      Miaoxing\WechatMp\Service\WechatMpUserModel wechatMpUserModel() 返回当前对象
  */
@@ -15,6 +22,7 @@ class WxaUrlMixin {
 }
 
 /**
+ * @mixin WechatMpAccountModelMixin
  * @mixin WechatMpUserModelMixin
  * @mixin WxaUrlMixin
  */
@@ -28,6 +36,12 @@ function wei()
 {
     return new AutoCompletion;
 }
+
+/** @var Miaoxing\WechatMp\Service\WechatMpAccountModel $wechatMpAccount */
+$wechatMpAccount = wei()->wechatMpAccountModel;
+
+/** @var Miaoxing\WechatMp\Service\WechatMpAccountModel|Miaoxing\WechatMp\Service\WechatMpAccountModel[] $wechatMpAccounts */
+$wechatMpAccounts = wei()->wechatMpAccountModel();
 
 /** @var Miaoxing\WechatMp\Service\WechatMpUserModel $wechatMpUser */
 $wechatMpUser = wei()->wechatMpUserModel;

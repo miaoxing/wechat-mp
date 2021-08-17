@@ -1,7 +1,7 @@
 <?php
 
 use Miaoxing\Plugin\BaseController;
-use Miaoxing\Wechat\Service\WechatAccountModel;
+use Miaoxing\WechatMp\Service\WechatMpAccountModel;
 
 return new class extends BaseController {
     public function get()
@@ -20,6 +20,6 @@ return new class extends BaseController {
 
     protected function getAccount()
     {
-        return WechatAccountModel::findOrInitBy(['type' => WechatAccountModel::TYPE_MP]);
+        return WechatMpAccountModel::findOrInitBy([]);
     }
 };
