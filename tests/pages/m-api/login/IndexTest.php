@@ -26,12 +26,10 @@ class IndexTest extends BaseTestCase
 
         $wechatApi->expects($this->once())
             ->method('jsCode2Session')
-            ->willReturn([
-                'code' => 0,
-                'message' => 'ok',
+            ->willReturn(suc([
                 'openid' => 'test-openid',
                 'unionid' => 'test-unionid',
-            ]);
+            ]));
 
         $account->expects($this->once())
             ->method('findBy')
