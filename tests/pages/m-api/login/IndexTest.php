@@ -12,7 +12,7 @@ class IndexTest extends BaseTestCase
     public function testPost()
     {
         $wechatApi = $this->getServiceMock(WechatApi::class, [
-            'jsCode2Session',
+            'snsJsCode2Session',
         ]);
 
         $account = $this->getModelServiceMock(WechatMpAccountModel::class, [
@@ -25,7 +25,7 @@ class IndexTest extends BaseTestCase
             ->willReturn($wechatApi);
 
         $wechatApi->expects($this->once())
-            ->method('jsCode2Session')
+            ->method('snsJsCode2Session')
             ->willReturn(suc([
                 'openid' => 'test-openid',
                 'unionid' => 'test-unionid',

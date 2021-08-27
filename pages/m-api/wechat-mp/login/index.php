@@ -18,7 +18,7 @@ return new class extends BaseController {
         }
 
         $api = $account->getApi();
-        $ret = $api->jsCode2Session(['js_code' => $req['code']]);
+        $ret = $api->snsJsCode2Session(['js_code' => $req['code']]);
         if ($ret->isErr()) {
             return $ret;
         }
