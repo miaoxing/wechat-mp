@@ -11,9 +11,9 @@ class IndexTest extends BaseTestCase
 {
     public function testPost()
     {
-        $wechatApi = $this->getServiceMock(WechatApi::class, [
-            'snsJsCode2Session',
-        ]);
+        $wechatApi = $this->getMockBuilder(WechatApi::class)
+            ->addMethods(['snsJsCode2Session'])
+            ->getMock();
 
         $account = $this->getModelServiceMock(WechatMpAccountModel::class, [
             'findBy',
