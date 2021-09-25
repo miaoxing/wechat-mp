@@ -1,0 +1,11 @@
+parameters:
+    level: 0
+
+    scanFiles:
+        # 引入 *Mixin 类
+        - %currentWorkingDirectory%/docs/auto-completion.php
+        - %currentWorkingDirectory%/vendor/wei/wei/docs/auto-completion.php
+
+    ignoreErrors:
+        - "#^Trying to mock an undefined method (.+?) on class (.+?)\\.$#"
+            

@@ -8,7 +8,8 @@
   "require": {
     "miaoxing/app": "^0.3.3",
     "miaoxing/user": "^0.2.17",
-    "miaoxing/wechat": "^0.1.0"
+    "miaoxing/wechat": "^0.1.0",
+    "miaoxing/payment": "^0.1.19"
   },
   "require-dev": {
     "miaoxing/dev": "^7.0.1"

@@ -17,6 +17,7 @@ class WxaPay extends WechatPayV3
 
     /**
      * {@inheritdoc}
+     * @phpstan-ignore-next-line createPayData() has invalid typehint
      */
     public function createPayData(Order $order, $testData = [])
     {
