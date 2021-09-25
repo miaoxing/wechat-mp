@@ -27,6 +27,7 @@
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
     "@miaoxing/dev": "miaoxing/dev",
     "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
-    "@mxjs/a-form": "miaoxing/mxjs-a-form"
+    "@mxjs/a-form": "miaoxing/mxjs-a-form",
+    "@mxjs/a-clink": "miaoxing/mxjs-a-clink"
   }
 }
