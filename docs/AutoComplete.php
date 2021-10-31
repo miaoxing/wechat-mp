@@ -1,7 +1,6 @@
 <?php
 
 namespace MiaoxingDoc\Wxa {
-
     /**
      * @property    \Miaoxing\Wxa\Service\WxaUrl $wxaUrl
      * @method      string wxaUrl($url, $page = '')
@@ -12,7 +11,6 @@ namespace MiaoxingDoc\Wxa {
 }
 
 namespace {
-
     /**
      * @return MiaoxingDoc\Wxa\AutoComplete
      */

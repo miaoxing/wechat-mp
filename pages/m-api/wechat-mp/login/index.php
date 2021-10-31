@@ -6,7 +6,7 @@ use Miaoxing\User\Service\UserModel;
 use Miaoxing\WechatMp\Service\WechatMpAccountModel;
 use Miaoxing\WechatMp\Service\WechatMpUserModel;
 
-return new class extends BaseController {
+return new class () extends BaseController {
     protected $controllerAuth = false;
 
     public function post($req)

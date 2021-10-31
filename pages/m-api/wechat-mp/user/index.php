@@ -7,7 +7,7 @@ use Miaoxing\WechatMp\Service\WechatMpUserModel;
 use Wei\Req;
 use Wei\Time;
 
-return new class extends BaseController {
+return new class () extends BaseController {
     public function patch(Req $req)
     {
         $mpUser = WechatMpUserModel::findByOrFail('userId', User::id());
@@ -50,6 +50,8 @@ return new class extends BaseController {
 
     /**
      * @todo 移到队列去下载
+     * @param mixed $avatarUrl
+     * @param mixed $openId
      */
     private function getAvatarUrl($avatarUrl, $openId)
     {
