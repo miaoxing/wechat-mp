@@ -4,7 +4,7 @@ import {Form, FormAction, FormItem} from '@mxjs/a-form';
 const Index = () => {
   return (
     <Page>
-      <PageActions mb={12}>
+      <PageActions mb12>
         小程序设置
       </PageActions>
       <Form method="patch" labelCol={{span: 8}} wrapperCol={{span: 8}}>
