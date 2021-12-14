@@ -5,6 +5,7 @@ namespace Miaoxing\WechatMp\Service;
 use Miaoxing\Plugin\BaseModel;
 use Miaoxing\Plugin\Model\HasAppIdTrait;
 use Miaoxing\Plugin\Model\ModelTrait;
+use Miaoxing\Plugin\Model\ReqQueryTrait;
 use Miaoxing\Plugin\Model\SnowflakeTrait;
 use Miaoxing\User\Service\UserModel;
 use Miaoxing\WechatMp\Metadata\WechatMpUserTrait;
@@ -16,6 +17,7 @@ class WechatMpUserModel extends BaseModel
 {
     use HasAppIdTrait;
     use ModelTrait;
+    use ReqQueryTrait;
     use SnowflakeTrait;
     use WechatMpUserTrait;
 

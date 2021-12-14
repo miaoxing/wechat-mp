@@ -21,6 +21,13 @@ class WechatMpPlugin extends BasePlugin
             'url' => 'admin/wechat-mp/account',
             'name' => '小程序设置',
         ];
+
+        $subCategories[] = [
+            'parentId' => 'user',
+            'url' => 'admin/wechat-mp/users',
+            'name' => '小程序用户管理',
+            'sort' => 900,
+        ];
     }
 
     public function onPaymentGetTypes(&$types)
