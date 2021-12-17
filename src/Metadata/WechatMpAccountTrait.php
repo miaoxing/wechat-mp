@@ -3,7 +3,7 @@
 namespace Miaoxing\WechatMp\Metadata;
 
 /**
- * @property int|null $id
+ * @property string|null $id
  * @property int $appId 应用编号
  * @property string $sourceId 微信原始ID
  * @property string $nickName 昵称
@@ -20,8 +20,8 @@ namespace Miaoxing\WechatMp\Metadata;
  * @property string $businessInfo 功能的开通状况
  * @property string|null $createdAt
  * @property string|null $updatedAt
- * @property int $createdBy
- * @property int $updatedBy
+ * @property string $createdBy
+ * @property string $updatedBy
  * @internal will change in the future
  */
 trait WechatMpAccountTrait

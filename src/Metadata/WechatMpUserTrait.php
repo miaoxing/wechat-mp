@@ -3,9 +3,9 @@
 namespace Miaoxing\WechatMp\Metadata;
 
 /**
- * @property int|null $id
+ * @property string|null $id
  * @property int $appId 应用编号
- * @property int $userId 用户编号
+ * @property string $userId 用户编号
  * @property string $openId 微信用户 OpenID
  * @property string $unionId 微信用户 UnionID
  * @property string $nickName 昵称
@@ -16,11 +16,12 @@ namespace Miaoxing\WechatMp\Metadata;
  * @property string $province 城市
  * @property string $city 省份
  * @property string $language 语言
+ * @property string $sessionKey
  * @property string|null $updatedInfoAt 最后更新信息时间
  * @property string|null $createdAt
  * @property string|null $updatedAt
- * @property int $createdBy
- * @property int $updatedBy
+ * @property string $createdBy
+ * @property string $updatedBy
  * @internal will change in the future
  */
 trait WechatMpUserTrait

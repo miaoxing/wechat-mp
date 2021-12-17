@@ -36,6 +36,7 @@ return new class () extends BaseController {
             $user = $mpUser->user;
         }
 
+        $mpUser->sessionKey = $ret['session_key'];
         $mpUser->save();
 
         $ret = User::loginByModel($user);
