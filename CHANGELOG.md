@@ -1,3 +1,29 @@
+## [0.1.1](https://github.com/miaoxing/wechat-mp/compare/v0.1.0...v0.1.1) (2022-01-12)
+
+
+### Features
+
+* **wechat-mp:** `WechatMpUserModel` 增加 `MineTrait` ([6ee2d53](https://github.com/miaoxing/wechat-mp/commit/6ee2d530353d5e46a8ae29f8ed997a9997475a63))
+* **wechat-mp:** 增加小程序用户列表 ([2038713](https://github.com/miaoxing/wechat-mp/commit/20387133abe85ebb7c1d5bd3cd9dfcd017946421))
+* **wechat-mp:** 增加记录小程序用户的 `session_key` 字段 ([046e32e](https://github.com/miaoxing/wechat-mp/commit/046e32e08d98fd0933ed4c418316fd271ab827df))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `0.3.0` to `0.3.1`
+* **@mxjs/a-form:** upgrade from `0.3.0` to `0.3.1`
+* **miaoxing:** upgrade from `0.3.0` to `0.4.0`
+* **@mxjs/app:** upgrade from `0.3.3` to `0.4.0`
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+* **@mxjs/test:** upgrade from `0.2.0` to `0.2.1`
+* **@miaoxing/app:** upgrade from `0.4.0` to `0.5.0`
+* **@miaoxing/user:** upgrade from `0.3.0` to `0.4.0`
+* **@miaoxing/wechat:** upgrade from `0.1.0` to `0.1.1`
+* **@miaoxing/payment:** upgrade from `0.1.20` to `0.1.21`
+
 # 0.1.0 (2021-10-28)
 
 
