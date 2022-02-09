@@ -59,18 +59,15 @@ return new class () extends BaseController {
             return '';
         }
 
-        $customName = implode('/', [
-            wei()->upload->getDir(),
-            wei()->app->getId(),
-            'wechat-mp',
-            // 前 6 位固定，因此使用后面字符层的分目录
-            substr($openId, -3),
-            $openId . '.jpg',
+        $ret = File::saveRemote($avatarUrl, [
+            'path' => implode('/', [
+                'wechat-mp',
+                substr($openId, -3), // 前 6 位固定，因此使用后面字符层的分目录
+                $openId . '.jpg',
+            ]),
         ]);
-
-        $ret = File::upload($avatarUrl, '', $customName);
         if ($ret->isSuc()) {
-            $avatarUrl = $ret['url'];
+            $avatarUrl = $ret['data']['url'];
         }
 
         return $avatarUrl;

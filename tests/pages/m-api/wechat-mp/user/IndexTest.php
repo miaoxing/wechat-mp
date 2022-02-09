@@ -20,12 +20,14 @@ class IndexTest extends BaseTestCase
         User::loginByModel($user);
         WechatMpUserModel::saveAttributes(['userId' => $user->id]);
 
-        $file = $this->getServiceMock(File::class, ['upload']);
+        $file = $this->getServiceMock(File::class, ['saveRemote']);
         $file->expects($this->once())
-            ->method('upload')
+            ->method('saveRemote')
             ->with('https://test.com/1.jpg')
             ->willReturn(suc([
-                'url' => 'https://test.com/2.jpg',
+                'data' => [
+                    'url' => 'https://test.com/2.jpg',
+                ],
             ]));
 
         $ret = Tester::request([
