@@ -19,7 +19,7 @@ return new class () extends BaseController {
             'city' => $req['city'],
             'province' => $req['province'],
             'country' => $req['country'],
-            'avatarUrl' => $this->getAvatarUrl($req['avatarUrl'], $mpUser->openId),
+            'avatarUrl' => $this->getAvatarUrl($mpUser->origAvatarUrl, $req['avatarUrl'], $mpUser->openId),
             'origAvatarUrl' => $req['avatarUrl'],
             'updatedInfoAt' => Time::now(),
         ]);
@@ -50,11 +50,13 @@ return new class () extends BaseController {
 
     /**
      * @todo 移到队列去下载
-     * @param mixed $avatarUrl
-     * @param mixed $openId
      */
-    private function getAvatarUrl($avatarUrl, $openId)
+    private function getAvatarUrl(string $origAvatarUrl, string $avatarUrl, string $openId): string
     {
+        if ($origAvatarUrl === $avatarUrl) {
+            return '';
+        }
+
         if (!$avatarUrl) {
             return '';
         }
