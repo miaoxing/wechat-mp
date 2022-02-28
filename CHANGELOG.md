@@ -1,3 +1,21 @@
+## [0.1.3](https://github.com/miaoxing/wechat-mp/compare/v0.1.2...v0.1.3) (2022-02-28)
+
+
+### Bug Fixes
+
+* **wechat-mp:** 小程序用户头像不变，则不重复上传 ([101244f](https://github.com/miaoxing/wechat-mp/commit/101244faaf03bf00133da4fe673a5a2b5ad410a2))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.5.1` to `0.6.0`
+* **@miaoxing/user:** upgrade from `0.4.1` to `0.4.2`
+* **@miaoxing/wechat:** upgrade from `0.1.2` to `0.1.3`
+* **@miaoxing/payment:** upgrade from `0.1.22` to `0.1.23`
+
 ## [0.1.2](https://github.com/miaoxing/wechat-mp/compare/v0.1.1...v0.1.2) (2022-02-05)
 
 
