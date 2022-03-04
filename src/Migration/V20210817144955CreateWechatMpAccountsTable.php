@@ -13,7 +13,7 @@ class V20210817144955CreateWechatMpAccountsTable extends BaseMigration
     {
         $this->schema->table('wechat_mp_accounts')->tableComment('微信小程序账号')
             ->bigId()
-            ->uInt('app_id')->comment('应用编号')
+            ->uBigInt('app_id')->comment('应用编号')
             ->string('source_id', 32)->comment('微信原始ID')
             ->string('nick_name', 16)->comment('昵称')
             ->string('head_img')->comment('头像')
