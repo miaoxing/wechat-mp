@@ -30,10 +30,10 @@
   "prefer-stable": true,
   "extra": {
     "require-ci": {
-      "miaoxing/plugin": "miaoxing/plugin as 0.7.x-dev",
+      "miaoxing/plugin": "miaoxing/plugin as 0.8.x-dev",
       "miaoxing/services": "miaoxing/services as 0.5.x-dev",
       "wei/wei": "twinh/wei as 0.12.x-dev",
-      "miaoxing/file": "miaoxing/file as 0.2.x-dev",
+      "miaoxing/file": "miaoxing/file as 0.3.x-dev",
       "miaoxing/wechat": "miaoxing/wechat as 0.1.x-dev"
     }
   }
