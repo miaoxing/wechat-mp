@@ -2,6 +2,7 @@
 
 namespace Miaoxing\WechatMp;
 
+use Miaoxing\Admin\Service\AdminMenu;
 use Miaoxing\Plugin\BasePlugin;
 use Miaoxing\Wxa\Payment\WxaPay;
 
@@ -14,20 +15,11 @@ class WechatMpPlugin extends BasePlugin
 
     protected $code = 212;
 
-    public function onAdminNavGetNavs(&$navs, &$categories, &$subCategories)
+    public function onAdminMenuGetMenus(AdminMenu $menu)
     {
-        $subCategories[] = [
-            'parentId' => 'setting',
-            'url' => 'admin/wechat-mp/account',
-            'name' => '小程序设置',
-        ];
+        $menu->child('setting')->addChild()->setLabel('小程序设置')->setUrl('admin/wechat-mp/account');
 
-        $subCategories[] = [
-            'parentId' => 'user',
-            'url' => 'admin/wechat-mp/users',
-            'name' => '小程序用户管理',
-            'sort' => 900,
-        ];
+        $menu->child('user')->addChild()->setLabel('小程序用户管理')->setUrl('admin/wechat-mp/users')->setSort(900);
     }
 
     public function onPaymentGetTypes(&$types)
