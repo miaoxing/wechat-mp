@@ -1,3 +1,21 @@
+## [0.2.6](https://github.com/miaoxing/wechat-mp/compare/v0.2.5...v0.2.6) (2022-07-02)
+
+
+### Bug Fixes
+
+* 解决 composer 2.2+ 默认不启用插件导致安装路径错误 ([0e93f3b](https://github.com/miaoxing/wechat-mp/commit/0e93f3b7a0837bf27301b9b7a03634a26f3ce794))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.6.5` to `0.6.6`
+* **@miaoxing/user:** upgrade from `0.4.8` to `0.4.9`
+* **@miaoxing/wechat:** upgrade from `0.1.8` to `0.1.9`
+* **@miaoxing/payment:** upgrade from `0.1.29` to `0.1.30`
+
 ## [0.2.5](https://github.com/miaoxing/wechat-mp/compare/v0.2.4...v0.2.5) (2022-07-01)
 
 
