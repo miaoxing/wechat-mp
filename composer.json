@@ -28,6 +28,12 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "phpstan/extension-installer": true
+    }
+  },
   "extra": {
     "require-ci": {
       "miaoxing/admin": "miaoxing/admin as 0.7.x-dev",
