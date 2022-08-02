@@ -1,3 +1,22 @@
+## [0.2.7](https://github.com/miaoxing/wechat-mp/compare/v0.2.6...v0.2.7) (2022-08-02)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `1.0.0` to `1.0.1`
+* **@mxjs/a-form:** upgrade from `1.0.0` to `1.0.1`
+* **miaoxing:** upgrade from `0.4.3` to `0.4.4`
+* **@mxjs/app:** upgrade from `0.5.2` to `0.5.3`
+* **@miaoxing/dev:** upgrade from `8.1.2` to `8.1.3`
+* **@mxjs/test:** upgrade from `1.0.0` to `1.0.1`
+* **@miaoxing/app:** upgrade from `0.6.6` to `0.6.7`
+* **@miaoxing/user:** upgrade from `0.4.9` to `0.4.10`
+* **@miaoxing/wechat:** upgrade from `0.1.9` to `0.1.10`
+* **@miaoxing/payment:** upgrade from `0.1.30` to `0.1.31`
+
 ## [0.2.6](https://github.com/miaoxing/wechat-mp/compare/v0.2.5...v0.2.6) (2022-07-02)
 
 
