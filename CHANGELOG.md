@@ -1,3 +1,23 @@
+## [0.2.9](https://github.com/miaoxing/wechat-mp/compare/v0.2.8...v0.2.9) (2022-09-30)
+
+
+### Features
+
+* **wechat-mp:** 链接允许配置小程序地址 ([1231fb0](https://github.com/miaoxing/wechat-mp/commit/1231fb098cb178b6ac63bcc1c1a665071053909c))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `1.0.1` to `1.1.0`
+* **@mxjs/a-form:** upgrade from `1.1.0` to `1.1.1`
+* **@miaoxing/app:** upgrade from `0.6.8` to `0.6.9`
+* **@miaoxing/user:** upgrade from `0.4.11` to `0.4.12`
+* **@miaoxing/wechat:** upgrade from `0.1.11` to `0.1.12`
+* **@miaoxing/payment:** upgrade from `0.1.32` to `0.1.33`
+
 ## [0.2.8](https://github.com/miaoxing/wechat-mp/compare/v0.2.7...v0.2.8) (2022-09-03)
 
 

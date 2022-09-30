@@ -1,6 +1,6 @@
 {
   "name": "@miaoxing/wechat-mp",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "private": true,
   "main": "index.js",
   "repository": "https://github.com/miaoxing/wechat-mp",
@@ -11,8 +11,8 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "@mxjs/a-page": "^1.0.1",
-    "@mxjs/a-form": "^1.1.0",
+    "@mxjs/a-page": "^1.1.0",
+    "@mxjs/a-form": "^1.1.1",
     "miaoxing": "^0.4.4",
     "@mxjs/app": "^0.5.3"
   },
