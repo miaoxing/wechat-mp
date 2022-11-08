@@ -4,7 +4,7 @@ namespace Miaoxing\WechatMp\Metadata;
 
 /**
  * @property string|null $id
- * @property int $appId 应用编号
+ * @property string $appId 应用编号
  * @property string $userId 用户编号
  * @property string $openId 微信用户 OpenID
  * @property string $unionId 微信用户 UnionID

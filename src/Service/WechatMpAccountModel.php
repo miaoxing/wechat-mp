@@ -22,6 +22,16 @@ class WechatMpAccountModel extends BaseModel
     protected $api;
 
     /**
+     * @var string[]
+     * @experimental
+     */
+    protected $miniProgramStats = [
+        1 => 'formal',
+        2 => 'trial',
+        3 => 'developer',
+    ];
+
+    /**
      * 获取当前账号的微信 API 服务
      *
      * @return WechatApi
@@ -36,5 +46,14 @@ class WechatMpAccountModel extends BaseModel
             ]);
         }
         return $this->api;
+    }
+
+    /**
+     * @return string
+     * @experimental
+     */
+    public function getMiniProgramState(): string
+    {
+        return $this->miniProgramStats[$this->env];
     }
 }
