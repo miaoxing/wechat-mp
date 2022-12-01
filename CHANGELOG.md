@@ -1,3 +1,26 @@
+## [0.2.12](https://github.com/miaoxing/wechat-mp/compare/v0.2.11...v0.2.12) (2022-12-01)
+
+
+### Features
+
+* **wechat-mp:** 支持设置小程序名称和头像 ([9aeeddd](https://github.com/miaoxing/wechat-mp/commit/9aeeddd0fad388b7ad6a036ab3d6584c34e9f4c5))
+* **wechat-mp, experimental:** 允许配置和获取小程序的所属的环境，如用于发送订阅消息 ([bfeee1c](https://github.com/miaoxing/wechat-mp/commit/bfeee1c7b870f883b316ee371d625c3441b9b800))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `1.1.0` to `1.1.1`
+* **@mxjs/a-form:** upgrade from `1.1.3` to `1.1.4`
+* **miaoxing:** upgrade from `0.4.4` to `0.4.5`
+* **@mxjs/test:** upgrade from `1.0.1` to `1.0.2`
+* **@miaoxing/app:** upgrade from `0.6.10` to `0.6.11`
+* **@miaoxing/user:** upgrade from `0.4.14` to `0.4.15`
+* **@miaoxing/wechat:** upgrade from `0.1.13` to `0.1.14`
+* **@miaoxing/payment:** upgrade from `0.1.35` to `0.1.36`
+
 ## [0.2.11](https://github.com/miaoxing/wechat-mp/compare/v0.2.10...v0.2.11) (2022-11-02)
 
 
