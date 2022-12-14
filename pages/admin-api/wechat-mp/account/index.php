@@ -15,10 +15,11 @@ return new class () extends BaseController {
         $account = $this->getAccount();
 
         $v = V::defaultOptional();
-        $v->maxCharLength('nickName', '名称', 16);
+        $v->setModel($account);
+        $v->modelColumn('nickName', '名称');
         $v->imageUrl('headName', '头像')->allowEmpty();
-        $v->maxCharLength('applicationId', 'AppID（应用ID）', 32);
-        $v->maxCharLength('applicationSecret', 'AppSecret（应用密钥）', 64);
+        $v->modelColumn('applicationId', 'AppID（应用ID）');
+        $v->modelColumn('applicationSecret', 'AppSecret（应用密钥）');
         $data = $v->assert($req);
 
         $account->save($data);
