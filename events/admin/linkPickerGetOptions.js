@@ -31,7 +31,7 @@ const MiniProgramPicker = ({pickerRef, linkPicker, value}) => {
       }
 
       const appId = formRef.current.getFieldValue('_miniProgramAppId');
-      const path = formRef.current.getFieldValue('_miniProgramPath');
+      const path = formRef.current.getFieldValue('_miniProgramPath') || '';
       linkPicker.addValue({appId, path});
       setVisible(false);
     }}
