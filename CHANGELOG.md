@@ -1,3 +1,23 @@
+## [0.2.14](https://github.com/miaoxing/wechat-mp/compare/v0.2.13...v0.2.14) (2023-01-31)
+
+
+### Bug Fixes
+
+* **wechat-mp:** 未填写小程序路径时，不显示 `undefined` ([a2968cb](https://github.com/miaoxing/wechat-mp/commit/a2968cb598b8533212770e5dbdc3f371df488240))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `1.1.2` to `1.1.3`
+* **@mxjs/a-form:** upgrade from `1.1.5` to `1.2.0`
+* **@miaoxing/app:** upgrade from `0.6.12` to `0.6.13`
+* **@miaoxing/user:** upgrade from `0.5.0` to `0.5.1`
+* **@miaoxing/wechat:** upgrade from `0.1.15` to `0.1.16`
+* **@miaoxing/payment:** upgrade from `0.1.37` to `0.1.38`
+
 ## [0.2.13](https://github.com/miaoxing/wechat-mp/compare/v0.2.12...v0.2.13) (2023-01-01)
 
 
