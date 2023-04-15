@@ -1,3 +1,23 @@
+## [0.2.16](https://github.com/miaoxing/wechat-mp/compare/v0.2.15...v0.2.16) (2023-04-15)
+
+
+### Features
+
+* 菜单增加权限配置 ([f652789](https://github.com/miaoxing/wechat-mp/commit/f652789ff8450c2816d3b42990f60b8b8ff2f4b7))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.0.0` to `2.1.0`
+* **@mxjs/a-form:** upgrade from `1.2.0` to `1.2.1`
+* **@miaoxing/app:** upgrade from `0.7.0` to `0.7.1`
+* **@miaoxing/user:** upgrade from `0.5.2` to `0.5.3`
+* **@miaoxing/wechat:** upgrade from `0.1.17` to `0.1.18`
+* **@miaoxing/payment:** upgrade from `0.1.39` to `0.1.40`
+
 ## [0.2.15](https://github.com/miaoxing/wechat-mp/compare/v0.2.14...v0.2.15) (2023-03-01)
 
 
