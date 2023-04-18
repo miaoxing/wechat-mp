@@ -27,7 +27,7 @@ class WechatMpPlugin extends BasePlugin
     {
         $map->prefix('admin/wechat-mp', function (PermissionMap $map) {
             $map->add('account', [
-                'PATCH api/admin/wechat-mp/account'
+                'PATCH api/admin/wechat-mp/account',
             ]);
             $map->addList('users');
         });
