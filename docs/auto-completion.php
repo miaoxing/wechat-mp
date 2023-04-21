@@ -2,31 +2,53 @@
 
 /**
  * @property    Miaoxing\WechatMp\Service\WechatMpAccountModel $wechatMpAccountModel
- * @method      Miaoxing\WechatMp\Service\WechatMpAccountModel wechatMpAccountModel() 返回当前对象
  */
-class WechatMpAccountModelMixin {
+class WechatMpAccountModelMixin
+{
+}
+
+/**
+ * @property    Miaoxing\WechatMp\Service\WechatMpAccountModel $wechatMpAccountModel
+ */
+class WechatMpAccountModelPropMixin
+{
+}
+
+/**
+ * @property    Miaoxing\WechatMp\Service\WechatMpApi $wechatMpApi
+ */
+class WechatMpApiMixin
+{
+}
+
+/**
+ * @property    Miaoxing\WechatMp\Service\WechatMpApi $wechatMpApi
+ */
+class WechatMpApiPropMixin
+{
 }
 
 /**
  * @property    Miaoxing\WechatMp\Service\WechatMpUserModel $wechatMpUserModel
- * @method      Miaoxing\WechatMp\Service\WechatMpUserModel wechatMpUserModel() 返回当前对象
  */
-class WechatMpUserModelMixin {
+class WechatMpUserModelMixin
+{
 }
 
 /**
- * @property    Miaoxing\WechatMp\Service\WxaUrl $wxaUrl
- * @method      mixed wxaUrl($url, $page = '/pages/index/index')
+ * @property    Miaoxing\WechatMp\Service\WechatMpUserModel $wechatMpUserModel
  */
-class WxaUrlMixin {
+class WechatMpUserModelPropMixin
+{
 }
 
 /**
  * @mixin WechatMpAccountModelMixin
+ * @mixin WechatMpApiMixin
  * @mixin WechatMpUserModelMixin
- * @mixin WxaUrlMixin
  */
-class AutoCompletion {
+class AutoCompletion
+{
 }
 
 /**
@@ -34,7 +56,7 @@ class AutoCompletion {
  */
 function wei()
 {
-    return new AutoCompletion;
+    return new AutoCompletion();
 }
 
 /** @var Miaoxing\WechatMp\Service\WechatMpAccountModel $wechatMpAccount */
@@ -43,11 +65,11 @@ $wechatMpAccount = wei()->wechatMpAccountModel;
 /** @var Miaoxing\WechatMp\Service\WechatMpAccountModel|Miaoxing\WechatMp\Service\WechatMpAccountModel[] $wechatMpAccounts */
 $wechatMpAccounts = wei()->wechatMpAccountModel();
 
+/** @var Miaoxing\WechatMp\Service\WechatMpApi $wechatMpApi */
+$wechatMpApi = wei()->wechatMpApi;
+
 /** @var Miaoxing\WechatMp\Service\WechatMpUserModel $wechatMpUser */
 $wechatMpUser = wei()->wechatMpUserModel;
 
 /** @var Miaoxing\WechatMp\Service\WechatMpUserModel|Miaoxing\WechatMp\Service\WechatMpUserModel[] $wechatMpUsers */
 $wechatMpUsers = wei()->wechatMpUserModel();
-
-/** @var Miaoxing\WechatMp\Service\WxaUrl $wxaUrl */
-$wxaUrl = wei()->wxaUrl;
