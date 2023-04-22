@@ -3,7 +3,7 @@
 use Miaoxing\Plugin\BaseController;
 use Miaoxing\Plugin\Service\User;
 use Miaoxing\User\Service\UserModel;
-use Miaoxing\WechatMp\Service\WechatMpAccountModel;
+use Miaoxing\WechatMp\Service\WechatMpApi;
 use Miaoxing\WechatMp\Service\WechatMpUserModel;
 
 return new class () extends BaseController {
@@ -12,13 +12,7 @@ return new class () extends BaseController {
     public function post($req)
     {
         // 1. code 换取 OpenID
-        $account = WechatMpAccountModel::first();
-        if (!$account) {
-            return err('未设置小程序账号');
-        }
-
-        $api = $account->getApi();
-        $ret = $api->snsJsCode2Session(['js_code' => $req['code']]);
+        $ret = WechatMpApi::snsJsCode2Session(['js_code' => $req['code']]);
         if ($ret->isErr()) {
             return $ret;
         }
