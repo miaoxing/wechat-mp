@@ -1,3 +1,22 @@
+## [0.2.18](https://github.com/miaoxing/wechat-mp/compare/v0.2.17...v0.2.18) (2023-04-30)
+
+
+### Features
+
+* **wechat-mp:** 增加 `WechatMpApi` ([3ab3b48](https://github.com/miaoxing/wechat-mp/commit/3ab3b489f27c9086799a73d0da99d40aae201368))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `1.2.2` to `1.3.0`
+* **@miaoxing/app:** upgrade from `0.7.1` to `0.7.2`
+* **@miaoxing/user:** upgrade from `0.5.4` to `0.5.5`
+* **@miaoxing/wechat:** upgrade from `0.1.18` to `0.1.19`
+* **@miaoxing/payment:** upgrade from `0.1.41` to `0.1.42`
+
 ## [0.2.17](https://github.com/miaoxing/wechat-mp/compare/v0.2.16...v0.2.17) (2023-04-18)
 
 
