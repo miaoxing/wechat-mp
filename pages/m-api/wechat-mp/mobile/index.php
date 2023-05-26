@@ -6,7 +6,7 @@ use Miaoxing\User\Service\UserModel;
 use Miaoxing\WechatMp\Service\WechatMpApi;
 use Wei\Time;
 
-return new class() extends BaseController {
+return new class () extends BaseController {
     public function patch($req)
     {
         $ret = WechatMpApi::post([
