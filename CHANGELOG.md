@@ -1,3 +1,30 @@
+## [0.2.19](https://github.com/miaoxing/wechat-mp/compare/v0.2.18...v0.2.19) (2023-05-31)
+
+
+### Features
+
+* **wechat-mp:** 增加接口解析并记录用户手机号 ([d3426b6](https://github.com/miaoxing/wechat-mp/commit/d3426b64fc9ae5bc6114a89c4f8b114041a22c74))
+* **wechat-mp:** 增加接口解析并记录用户手机号 ([9d09348](https://github.com/miaoxing/wechat-mp/commit/9d09348e064e6c7ea6128fd5ea89061da0ca2cc9))
+* **wechat-mp:** 增加接口返回小程序账号信息 ([63260f2](https://github.com/miaoxing/wechat-mp/commit/63260f2277d30cbc5a8b73c1712ac0c422400376))
+* **wechat-mp:** 增加接口返回用户是否已经授权过 ([6d38417](https://github.com/miaoxing/wechat-mp/commit/6d38417f29e21d75bbadb0d49bd9ee6784bc980d))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.1.1` to `2.1.2`
+* **@mxjs/a-form:** upgrade from `1.3.0` to `1.4.0`
+* **miaoxing:** upgrade from `0.4.6` to `0.4.7`
+* **@mxjs/app:** upgrade from `0.5.4` to `0.5.5`
+* **@miaoxing/dev:** upgrade from `8.2.0` to `8.2.1`
+* **@mxjs/test:** upgrade from `1.0.3` to `1.0.4`
+* **@miaoxing/app:** upgrade from `0.7.2` to `0.7.3`
+* **@miaoxing/user:** upgrade from `0.5.5` to `0.5.6`
+* **@miaoxing/wechat:** upgrade from `0.1.19` to `0.1.20`
+* **@miaoxing/payment:** upgrade from `0.1.42` to `0.1.43`
+
 ## [0.2.18](https://github.com/miaoxing/wechat-mp/compare/v0.2.17...v0.2.18) (2023-04-30)
 
 
