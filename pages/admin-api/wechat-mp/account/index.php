@@ -20,6 +20,7 @@ return new class () extends BaseController {
         $v->imageUrl('headName', '头像')->allowEmpty();
         $v->modelColumn('applicationId', 'AppID（应用ID）');
         $v->modelColumn('applicationSecret', 'AppSecret（应用密钥）');
+        $v->modelColumn('env', '小程序环境');
         $data = $v->assert($req);
 
         $account->save($data);

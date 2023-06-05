@@ -38,6 +38,7 @@ exports[`admin/wechat-mp/account index 2`] = `
         "data": Object {
           "applicationId": "appId2",
           "applicationSecret": "appSecret2",
+          "env": undefined,
           "headImg": undefined,
           "nickName": undefined,
         },

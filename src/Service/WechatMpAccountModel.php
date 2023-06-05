@@ -23,7 +23,6 @@ class WechatMpAccountModel extends BaseModel
 
     /**
      * @var string[]
-     * @experimental
      */
     protected $miniProgramStats = [
         1 => 'formal',
@@ -50,7 +49,6 @@ class WechatMpAccountModel extends BaseModel
 
     /**
      * @return string
-     * @experimental
      */
     public function getMiniProgramState(): string
     {
