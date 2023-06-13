@@ -1,6 +1,6 @@
 <?php
 
-namespace MiaoxingTest\WechatMp\Pages\MApi\Login;
+namespace MiaoxingTest\WechatMp\Pages\Api\Login;
 
 use Miaoxing\Plugin\Service\Tester;
 use Miaoxing\Plugin\Test\BaseTestCase;
@@ -23,7 +23,7 @@ class IndexTest extends BaseTestCase
                 'session_key' => 'test',
             ]));
 
-        $ret = Tester::request(['code' => 'test'])->post('/m-api/wechat-mp/login');
+        $ret = Tester::request(['code' => 'test'])->post('/api/wechat-mp/login');
         $this->assertRetSuc($ret);
     }
 }

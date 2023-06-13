@@ -1,6 +1,6 @@
 <?php
 
-namespace MiaoxingTest\WechatMp\Pages\MApi\WechatMp\User;
+namespace MiaoxingTest\WechatMp\Pages\Api\WechatMp\User;
 
 use Miaoxing\File\Service\File;
 use Miaoxing\Plugin\Service\Tester;
@@ -38,7 +38,7 @@ class IndexTest extends BaseTestCase
             'province' => '广东',
             'country' => '中国',
             'avatarUrl' => 'https://test.com/1.jpg',
-        ])->patch('/m-api/wechat-mp/user');
+        ])->patch('/api/wechat-mp/user');
 
         $this->assertRetSuc($ret);
 
