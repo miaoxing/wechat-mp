@@ -1,3 +1,26 @@
+## [0.2.20](https://github.com/miaoxing/wechat-mp/compare/v0.2.19...v0.2.20) (2023-06-30)
+
+
+### Features
+
+* **wechat-mp:** 允许配置小程序所属的环境 ([a3c9994](https://github.com/miaoxing/wechat-mp/commit/a3c9994d700584cf606ee1e8ef6538173c5f37e9))
+* **wechat-mp, experimental:** 增加 `WechatMpSubscribeMessage` 服务，简化发送订阅消息流程 ([80ee89c](https://github.com/miaoxing/wechat-mp/commit/80ee89c6d54904ecd62e3d461e612941aa0930ef))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.1.2` to `2.1.3`
+* **@mxjs/a-form:** upgrade from `1.4.0` to `1.4.1`
+* **@mxjs/app:** upgrade from `0.5.5` to `0.6.0`
+* **@mxjs/test:** upgrade from `1.0.4` to `1.0.5`
+* **@miaoxing/app:** upgrade from `0.7.3` to `0.7.4`
+* **@miaoxing/user:** upgrade from `0.5.6` to `0.5.7`
+* **@miaoxing/wechat:** upgrade from `0.1.20` to `0.1.21`
+* **@miaoxing/payment:** upgrade from `0.1.43` to `0.1.44`
+
 ## [0.2.19](https://github.com/miaoxing/wechat-mp/compare/v0.2.18...v0.2.19) (2023-05-31)
 
 
