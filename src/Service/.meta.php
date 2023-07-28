@@ -49,4 +49,15 @@ class WechatMpApi
     {
         return suc();
     }
+
+    /**
+     * 下发小程序和公众号统一的服务消息
+     *
+     * @param array{touser: string, weapp_template_msg: array, mp_template_msg: array} $data
+     * @return Ret|array{errcode: int, errmsg: string}
+     */
+    public function sendUniformMessage(array $data): Ret
+    {
+        return suc();
+    }
 }

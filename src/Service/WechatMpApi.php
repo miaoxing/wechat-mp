@@ -9,6 +9,7 @@ use Miaoxing\Wechat\WechatApiTrait;
  * @method static Ret snsJsCode2Session(array $data)
  * @method static Ret sendSubscribeMessage(array $data)
  * @method static Ret getWxaCodeUnlimited(array $data)
+ * @method static Ret sendUniformMessage(array $data)
  */
 class WechatMpApi extends BaseService
 {
@@ -34,6 +35,7 @@ class WechatMpApi extends BaseService
             'url' => 'wxa/getwxacodeunlimit',
             'dataType' => 'text',
         ],
+        'sendUniformMessage' => 'cgi-bin/message/wxopen/template/uniform_send',
     ];
 
     public function getAccount(): WechatMpAccountModel
