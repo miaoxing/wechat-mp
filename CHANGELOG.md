@@ -1,3 +1,27 @@
+## [0.2.21](https://github.com/miaoxing/wechat-mp/compare/v0.2.20...v0.2.21) (2023-07-31)
+
+
+### Features
+
+* **wechat-mp:** 增加 `WechatMpApi::sendUniformMessage` 接口 ([40c701c](https://github.com/miaoxing/wechat-mp/commit/40c701c288214dd088c3bdfc5a67ad168b8b6e97))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.1.3` to `2.1.4`
+* **@mxjs/a-form:** upgrade from `1.4.1` to `1.5.0`
+* **miaoxing:** upgrade from `0.4.7` to `0.4.8`
+* **@mxjs/app:** upgrade from `0.6.0` to `0.6.1`
+* **@miaoxing/dev:** upgrade from `8.2.1` to `8.2.2`
+* **@mxjs/test:** upgrade from `1.0.5` to `1.0.6`
+* **@miaoxing/app:** upgrade from `0.7.4` to `0.7.5`
+* **@miaoxing/user:** upgrade from `0.5.7` to `0.5.8`
+* **@miaoxing/wechat:** upgrade from `0.1.21` to `0.1.22`
+* **@miaoxing/payment:** upgrade from `0.1.44` to `0.1.45`
+
 ## [0.2.20](https://github.com/miaoxing/wechat-mp/compare/v0.2.19...v0.2.20) (2023-06-30)
 
 
