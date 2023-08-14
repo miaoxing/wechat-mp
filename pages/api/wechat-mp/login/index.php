@@ -1,12 +1,12 @@
 <?php
 
-use Miaoxing\Plugin\BaseController;
+use Miaoxing\Plugin\BasePage;
 use Miaoxing\Plugin\Service\User;
 use Miaoxing\User\Service\UserModel;
 use Miaoxing\WechatMp\Service\WechatMpApi;
 use Miaoxing\WechatMp\Service\WechatMpUserModel;
 
-return new class () extends BaseController {
+return new class () extends BasePage {
     protected $controllerAuth = false;
 
     public function post($req)

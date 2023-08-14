@@ -1,13 +1,13 @@
 <?php
 
 use Miaoxing\File\Service\File;
-use Miaoxing\Plugin\BaseController;
+use Miaoxing\Plugin\BasePage;
 use Miaoxing\Plugin\Service\User;
 use Miaoxing\WechatMp\Service\WechatMpUserModel;
 use Wei\Req;
 use Wei\Time;
 
-return new class () extends BaseController {
+return new class () extends BasePage {
     public function patch(Req $req)
     {
         $mpUser = WechatMpUserModel::findByOrFail('userId', User::id());

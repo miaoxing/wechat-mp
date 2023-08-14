@@ -1,10 +1,10 @@
 <?php
 
-use Miaoxing\Plugin\BaseController;
+use Miaoxing\Plugin\BasePage;
 use Miaoxing\WechatMp\Service\WechatMpAccountModel;
 use Wei\V;
 
-return new class () extends BaseController {
+return new class () extends BasePage {
     public function get()
     {
         return $this->getAccount()->toRet();
