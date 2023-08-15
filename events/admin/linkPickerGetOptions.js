@@ -41,7 +41,9 @@ const MiniProgramPicker = ({pickerRef, linkPicker, value}) => {
   >
     <Form ref={formRef} labelCol={{span: 6}} wrapperCol={{span: 14}}>
       <FormItem label="小程序 AppID" name="_miniProgramAppId" initialValue={value.appId} required/>
-      <FormItem label="小程序路径" name="_miniProgramPath" initialValue={value.path} extra="留空显示小程序首页"/>
+      <FormItem label="小程序路径" name="_miniProgramPath" initialValue={value.path}
+        extra="留空显示小程序首页，参考格式：/pages/index/index"
+      />
     </Form>
   </Modal>;
 };
