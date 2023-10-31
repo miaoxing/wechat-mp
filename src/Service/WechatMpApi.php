@@ -4,6 +4,7 @@ namespace Miaoxing\WechatMp\Service;
 
 use Miaoxing\Plugin\BaseService;
 use Miaoxing\Wechat\WechatApiTrait;
+use Wei\Ret;
 
 /**
  * @method static Ret snsJsCode2Session(array $data)
