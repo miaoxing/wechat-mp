@@ -10,7 +10,7 @@ use Wei\Ret;
  * @method static Ret snsJsCode2Session(array $data)
  * @method static Ret sendSubscribeMessage(array $data)
  * @method static Ret getWxaCodeUnlimited(array $data)
- * @method static Ret sendUniformMessage(array $data)
+ * @method static Ret sendUniformMessage(array $data) @deprecated 已下线，需使用服务号发送消息
  */
 class WechatMpApi extends BaseService
 {

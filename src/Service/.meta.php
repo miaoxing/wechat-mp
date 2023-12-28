@@ -55,6 +55,7 @@ class WechatMpApi
      *
      * @param array{touser: string, weapp_template_msg: array, mp_template_msg: array} $data
      * @return Ret|array{errcode: int, errmsg: string}
+     * @deprecated 已下线，需使用服务号发送消息
      */
     public function sendUniformMessage(array $data): Ret
     {
