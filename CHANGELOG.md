@@ -1,3 +1,27 @@
+## [0.2.26](https://github.com/miaoxing/wechat-mp/compare/v0.2.25...v0.2.26) (2023-12-31)
+
+
+### Features
+
+* **wechat-mp:** 废弃微信已下线的 `WechatMpApi::sendUniformMessage` 接口 ([35cbca9](https://github.com/miaoxing/wechat-mp/commit/35cbca986d1a4a5ec94892ec7f28db615e2051be))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.2.1` to `2.2.2`
+* **@mxjs/a-form:** upgrade from `2.0.1` to `2.0.2`
+* **miaoxing:** upgrade from `0.4.10` to `0.4.11`
+* **@mxjs/app:** upgrade from `0.6.3` to `0.6.4`
+* **@miaoxing/dev:** upgrade from `8.2.4` to `9.0.0`
+* **@mxjs/test:** upgrade from `1.0.8` to `1.0.9`
+* **@miaoxing/app:** upgrade from `0.7.9` to `0.7.10`
+* **@miaoxing/user:** upgrade from `0.5.12` to `0.5.13`
+* **@miaoxing/wechat:** upgrade from `0.1.26` to `0.1.27`
+* **@miaoxing/payment:** upgrade from `0.1.49` to `0.1.50`
+
 ## [0.2.25](https://github.com/miaoxing/wechat-mp/compare/v0.2.24...v0.2.25) (2023-11-30)
 
 
