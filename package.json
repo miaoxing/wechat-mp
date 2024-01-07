@@ -9,8 +9,8 @@
     "plugins/*"
   ],
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1",
     "@mxjs/a-page": "^2.2.3",
     "@mxjs/a-form": "^2.0.3",
     "miaoxing": "^0.4.12",
