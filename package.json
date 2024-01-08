@@ -1,6 +1,6 @@
 {
   "name": "@miaoxing/wechat-mp",
-  "version": "0.2.26",
+  "version": "0.2.27",
   "private": true,
   "main": "index.js",
   "repository": "https://github.com/miaoxing/wechat-mp",
@@ -11,15 +11,15 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "@mxjs/a-page": "^2.2.2",
-    "@mxjs/a-form": "^2.0.2",
-    "miaoxing": "^0.4.11",
-    "@mxjs/app": "^0.6.4"
+    "@mxjs/a-page": "^2.2.3",
+    "@mxjs/a-form": "^2.0.3",
+    "miaoxing": "^0.4.12",
+    "@mxjs/app": "^0.6.5"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^9.0.0",
+    "@miaoxing/dev": "^9.1.0",
     "react-router": "^5.2.0",
-    "@mxjs/test": "^1.0.9",
+    "@mxjs/test": "^1.0.10",
     "@testing-library/react": "^11.2.6"
   },
   "jest": {
