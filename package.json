@@ -11,6 +11,7 @@
   "dependencies": {
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1",
+    "@mxjs/a-box": "^1.0.0",
     "@mxjs/a-page": "^2.2.3",
     "@mxjs/a-form": "^2.0.3",
     "miaoxing": "^0.4.12",
@@ -30,6 +31,7 @@
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
     "@miaoxing/dev": "miaoxing/dev",
     "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
+    "@mxjs/a-box": "miaoxing/mxjs-a-box",
     "@mxjs/a-form": "miaoxing/mxjs-a-form",
     "@mxjs/a-clink": "miaoxing/mxjs-a-clink",
     "@mxjs/app": "miaoxing/mxjs-app"

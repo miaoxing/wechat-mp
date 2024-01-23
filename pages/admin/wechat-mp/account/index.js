@@ -1,8 +1,8 @@
-import {Page, PageActions} from '@mxjs/a-page';
-import {Form, FormAction, FormItem} from '@mxjs/a-form';
-import {FormItemUpload} from '@miaoxing/admin';
-import {Divider, Select} from 'antd';
-import {Box} from '@mxjs/box';
+import { Page, PageActions } from '@mxjs/a-page';
+import { Form, FormAction, FormItem } from '@mxjs/a-form';
+import { FormItemUpload } from '@miaoxing/admin';
+import { Divider, Select } from 'antd';
+import { Box } from '@mxjs/a-box';
 
 const options = [
   {
@@ -31,7 +31,7 @@ const Index = () => {
         <FormItem label="AppID（应用ID）" name="applicationId"/>
         <FormItem label="AppSecret（应用密钥）" name="applicationSecret" type="password"/>
 
-        <Box p4></Box>
+        <Box p={4}></Box>
         <Divider orientation="left" plain>
           更多设置
         </Divider>
