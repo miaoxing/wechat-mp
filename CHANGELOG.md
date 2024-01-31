@@ -1,3 +1,24 @@
+## [0.2.28](https://github.com/miaoxing/wechat-mp/compare/v0.2.27...v0.2.28) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([d5203b2](https://github.com/miaoxing/wechat-mp/commit/d5203b2779db9cab9c9c7bffe1ffaf4c3306d70d))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-box:** upgrade from `1.0.0` to `1.1.0`
+* **@mxjs/a-page:** upgrade from `2.2.3` to `2.3.0`
+* **@mxjs/a-form:** upgrade from `2.0.3` to `2.1.0`
+* **@miaoxing/app:** upgrade from `0.7.11` to `0.8.0`
+* **@miaoxing/user:** upgrade from `0.5.14` to `0.5.15`
+* **@miaoxing/wechat:** upgrade from `0.1.28` to `0.1.29`
+* **@miaoxing/payment:** upgrade from `0.1.51` to `0.1.52`
+
 ## [0.2.27](https://github.com/miaoxing/wechat-mp/compare/v0.2.26...v0.2.27) (2024-01-08)
 
 
