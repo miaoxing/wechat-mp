@@ -21,7 +21,7 @@
     "@miaoxing/dev": "^9.1.0",
     "react-router": "^5.2.0",
     "@mxjs/test": "^1.0.10",
-    "@testing-library/react": "^11.2.6"
+    "@testing-library/react": "^14"
   },
   "jest": {
     "preset": "jest-preset-miaoxing"
