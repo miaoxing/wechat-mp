@@ -1,3 +1,17 @@
+## [0.2.30](https://github.com/miaoxing/wechat-mp/compare/v0.2.29...v0.2.30) (2024-02-29)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.4.0` to `2.4.1`
+* **@miaoxing/app:** upgrade from `0.8.1` to `0.8.2`
+* **@miaoxing/user:** upgrade from `0.5.16` to `0.5.17`
+* **@miaoxing/wechat:** upgrade from `0.1.30` to `0.1.31`
+* **@miaoxing/payment:** upgrade from `0.1.53` to `0.1.54`
+
 ## [0.2.29](https://github.com/miaoxing/wechat-mp/compare/v0.2.28...v0.2.29) (2024-02-20)
 
 

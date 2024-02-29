@@ -1,6 +1,6 @@
 {
   "name": "@miaoxing/wechat-mp",
-  "version": "0.2.29",
+  "version": "0.2.30",
   "private": true,
   "main": "index.js",
   "repository": "https://github.com/miaoxing/wechat-mp",
@@ -12,7 +12,7 @@
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1",
     "@mxjs/a-box": "^1.1.0",
-    "@mxjs/a-page": "^2.4.0",
+    "@mxjs/a-page": "^2.4.1",
     "@mxjs/a-form": "^2.2.0",
     "miaoxing": "^0.4.12",
     "@mxjs/app": "^0.6.5"
