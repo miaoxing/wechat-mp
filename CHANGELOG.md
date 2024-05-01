@@ -1,3 +1,31 @@
+# [0.3.0](https://github.com/miaoxing/wechat-mp/compare/v0.2.31...v0.3.0) (2024-05-01)
+
+
+### Features
+
+* 更新 `react-router` 到 v6 ([2350de0](https://github.com/miaoxing/wechat-mp/commit/2350de0b72a460d29d23e6fb771ca755c7bc6ccf))
+
+
+### BREAKING CHANGES
+
+* 更新 `react-router` 到 v6
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `2.5.0` to `3.0.0`
+* **@mxjs/a-form:** upgrade from `2.2.1` to `3.0.0`
+* **miaoxing:** upgrade from `0.4.13` to `0.4.14`
+* **@mxjs/app:** upgrade from `0.6.6` to `0.7.0`
+* **@mxjs/test:** upgrade from `1.0.11` to `1.1.0`
+* **@miaoxing/app:** upgrade from `0.8.3` to `0.9.0`
+* **@miaoxing/user:** upgrade from `0.5.18` to `0.5.19`
+* **@miaoxing/wechat:** upgrade from `0.1.32` to `0.1.33`
+* **@miaoxing/payment:** upgrade from `0.1.55` to `0.1.56`
+
 ## [0.2.31](https://github.com/miaoxing/wechat-mp/compare/v0.2.30...v0.2.31) (2024-03-31)
 
 
