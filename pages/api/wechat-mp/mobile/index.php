@@ -34,6 +34,7 @@ return new class () extends BaseController {
         // 更新手机号为当前用户
         UserModel::where('mobile', $mobile)
             ->whereNotNull('mobileVerifiedAt')
+            ->where('id', '!=', User::id())
             ->update([
                 'mobile' => '',
                 'mobileVerifiedAt' => null,
