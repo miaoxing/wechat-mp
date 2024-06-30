@@ -1,3 +1,22 @@
+## [0.3.2](https://github.com/miaoxing/wechat-mp/compare/v0.3.1...v0.3.2) (2024-06-30)
+
+
+### Bug Fixes
+
+* **wechat-mp:** 更新相同手机号时变为空号 ([09b3b62](https://github.com/miaoxing/wechat-mp/commit/09b3b62797df2115c0045849eaa406689b2673c6))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `3.0.1` to `3.0.2`
+* **@miaoxing/app:** upgrade from `0.10.0` to `0.10.1`
+* **@miaoxing/user:** upgrade from `0.5.20` to `0.5.21`
+* **@miaoxing/wechat:** upgrade from `0.1.34` to `0.1.35`
+* **@miaoxing/payment:** upgrade from `0.1.57` to `0.1.58`
+
 ## [0.3.1](https://github.com/miaoxing/wechat-mp/compare/v0.3.0...v0.3.1) (2024-05-30)
 
 
