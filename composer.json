@@ -43,5 +43,10 @@
       "miaoxing/file": "miaoxing/file as 0.3.x-dev",
       "miaoxing/wechat": "miaoxing/wechat as 0.1.x-dev"
     }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "@php wei g:auto-completion"
+    ]
   }
 }
