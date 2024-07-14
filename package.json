@@ -13,6 +13,7 @@
     "react-dom": ">=16.13.1",
     "@mxjs/a-page": "^3.0.1",
     "@mxjs/a-form": "^3.0.2",
+    "@mxjs/a-section": "^1.0.0",
     "miaoxing": "^0.4.15",
     "@mxjs/app": "^0.8.0"
   },
@@ -32,6 +33,7 @@
     "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
     "@mxjs/a-form": "miaoxing/mxjs-a-form",
     "@mxjs/a-clink": "miaoxing/mxjs-a-clink",
+    "@mxjs/a-section": "miaoxing/mxjs-a-section",
     "@mxjs/app": "miaoxing/mxjs-app"
   }
 }

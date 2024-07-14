@@ -1,7 +1,8 @@
-import { Page, PageActions } from '@mxjs/a-page';
+import { Page } from '@mxjs/a-page';
 import { Form, FormAction, FormItem } from '@mxjs/a-form';
 import { FormItemUpload } from '@miaoxing/admin';
-import { Divider, Select } from 'antd';
+import { Select } from 'antd';
+import { Section } from '@mxjs/a-section';
 
 const options = [
   {
@@ -21,23 +22,21 @@ const options = [
 const Index = () => {
   return (
     <Page>
-      <PageActions className="mb-12">
-        小程序设置
-      </PageActions>
-      <Form method="patch" labelCol={{span: 8}} wrapperCol={{span: 8}}>
-        <FormItem label="名称" name="nickName"/>
-        <FormItemUpload label="头像" name="headImg" max={1}/>
-        <FormItem label="AppID（应用ID）" name="applicationId"/>
-        <FormItem label="AppSecret（应用密钥）" name="applicationSecret" type="password"/>
+      <Form method="patch">
+        <Section title="基础信息">
+          <FormItem label="名称" name="nickName"/>
+          <FormItemUpload label="头像" name="headImg" max={1}/>
+          <FormItem label="AppID（应用ID）" name="applicationId"/>
+          <FormItem label="AppSecret（应用密钥）" name="applicationSecret" type="password"/>
+        </Section>
 
-        <Divider orientation="left" plain className="mt-8">
-          更多设置
-        </Divider>
-        <FormItem label="小程序环境" name="env" tooltip="发送订阅消息时，跳转的小程序版本">
-          <Select options={options}/>
-        </FormItem>
+        <Section title="更多设置">
+          <FormItem label="小程序环境" name="env" tooltip="发送订阅消息时，跳转的小程序版本">
+            <Select options={options}/>
+          </FormItem>
+        </Section>
 
-        <FormAction wrapperCol={{offset: 8}} list={false}/>
+        <FormAction list={false}/>
       </Form>
     </Page>
   );
