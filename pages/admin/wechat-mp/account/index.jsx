@@ -1,5 +1,5 @@
 import { Page } from '@mxjs/a-page';
-import { Form, FormAction, FormItem } from '@mxjs/a-form';
+import { Form, FormActions, FormItem } from '@mxjs/a-form';
 import { FormItemUpload } from '@miaoxing/admin';
 import { Select } from 'antd';
 import { Section } from '@mxjs/a-section';
@@ -36,7 +36,7 @@ const Index = () => {
           </FormItem>
         </Section>
 
-        <FormAction list={false}/>
+        <FormActions list={false}/>
       </Form>
     </Page>
   );
