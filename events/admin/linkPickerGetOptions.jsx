@@ -20,8 +20,10 @@ const MiniProgramPicker = ({pickerRef, linkPicker, value}) => {
     title="填写小程序信息"
     open={open}
     width={600}
-    bodyStyle={{
-      padding: '1rem',
+    styles={{
+      body: {
+        padding: '1rem',
+      }
     }}
     onOk={async () => {
       try {
