@@ -1,3 +1,30 @@
+## [0.3.3](https://github.com/miaoxing/wechat-mp/compare/v0.3.2...v0.3.3) (2024-07-31)
+
+
+### Features
+
+* 升级 antd `Modal` 的 `bodyStyle` 为 `styles` ([6652ae3](https://github.com/miaoxing/wechat-mp/commit/6652ae3ba1b1d982ba8131afb0e98e45a945edc3))
+* **u:** 调整页面内容为卡片视图 ([1122943](https://github.com/miaoxing/wechat-mp/commit/112294359eb22412d79eb1e68728fb548b4474c7))
+* Box 组件改为 tailwind 类名 ([b1a6017](https://github.com/miaoxing/wechat-mp/commit/b1a60170d6f0c4371e19d046c616583d1a47e7f8))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `3.0.1` to `4.0.0`
+* **@mxjs/a-form:** upgrade from `3.0.2` to `4.0.0`
+* **@mxjs/a-section:** upgrade from `1.0.0` to `1.1.0`
+* **miaoxing:** upgrade from `0.4.15` to `0.4.16`
+* **@mxjs/app:** upgrade from `0.8.0` to `0.8.1`
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+* **@mxjs/test:** upgrade from `2.0.0` to `2.0.1`
+* **@miaoxing/app:** upgrade from `0.10.1` to `0.10.2`
+* **@miaoxing/user:** upgrade from `0.5.21` to `0.5.22`
+* **@miaoxing/wechat:** upgrade from `0.1.35` to `0.1.36`
+* **@miaoxing/payment:** upgrade from `0.1.58` to `0.1.59`
+
 ## [0.3.2](https://github.com/miaoxing/wechat-mp/compare/v0.3.1...v0.3.2) (2024-06-30)
 
 
