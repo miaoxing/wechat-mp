@@ -9,9 +9,9 @@
   "license": "MIT",
   "require": {
     "miaoxing/app": "^0.10.2",
-    "miaoxing/user": "^0.5.22",
+    "miaoxing/user": "^0.5.23",
     "miaoxing/wechat": "^0.1.36",
-    "miaoxing/payment": "^0.1.59"
+    "miaoxing/payment": "^0.1.60"
   },
   "require-dev": {
     "miaoxing/dev": "^9.1.2"
@@ -36,7 +36,7 @@
   },
   "extra": {
     "require-ci": {
-      "miaoxing/admin": "miaoxing/admin as 0.14.x-dev",
+      "miaoxing/admin": "miaoxing/admin as 0.15.x-dev",
       "miaoxing/plugin": "miaoxing/plugin as 0.15.x-dev",
       "miaoxing/services": "miaoxing/services as 0.9.x-dev",
       "wei/wei": "twinh/wei as 0.17.x-dev",
