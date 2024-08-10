@@ -7,7 +7,7 @@ use Miaoxing\WechatMp\Service\WechatMpUserModel;
 use Wei\Req;
 use Wei\Time;
 
-return new class () extends BasePage {
+return new class extends BasePage {
     public function patch(Req $req)
     {
         $mpUser = WechatMpUserModel::findByOrFail('userId', User::id());
