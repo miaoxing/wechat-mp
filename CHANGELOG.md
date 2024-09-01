@@ -1,3 +1,29 @@
+## [0.3.6](https://github.com/miaoxing/wechat-mp/compare/v0.3.5...v0.3.6) (2024-09-01)
+
+
+### Features
+
+* modal 样式优化 ([c9f5526](https://github.com/miaoxing/wechat-mp/commit/c9f5526c6a989451484cbd8fb418a67a4bb63d47))
+* 插件增加 wei 命令行入口 ([c8e1832](https://github.com/miaoxing/wechat-mp/commit/c8e1832dd4228b632dea1a12a9b3b83d3dad7490))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `4.0.2` to `4.1.0`
+* **@mxjs/a-form:** upgrade from `4.0.2` to `4.1.0`
+* **@mxjs/a-section:** upgrade from `1.1.1` to `1.2.0`
+* **miaoxing:** upgrade from `0.4.18` to `0.4.19`
+* **@mxjs/app:** upgrade from `0.8.2` to `0.8.3`
+* **@miaoxing/dev:** upgrade from `9.1.3` to `9.2.0`
+* **@mxjs/test:** upgrade from `2.0.3` to `2.0.4`
+* **@miaoxing/app:** upgrade from `0.10.3` to `0.10.4`
+* **@miaoxing/user:** upgrade from `0.5.24` to `0.5.25`
+* **@miaoxing/wechat:** upgrade from `0.1.37` to `0.1.38`
+* **@miaoxing/payment:** upgrade from `0.1.61` to `0.1.62`
+
 ## [0.3.5](https://github.com/miaoxing/wechat-mp/compare/v0.3.4...v0.3.5) (2024-08-03)
 
 
