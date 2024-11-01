@@ -1,3 +1,25 @@
+## [0.3.8](https://github.com/miaoxing/wechat-mp/compare/v0.3.7...v0.3.8) (2024-11-01)
+
+
+### Features
+
+* 增加页面权限 ([3100b78](https://github.com/miaoxing/wechat-mp/commit/3100b78bbdc39e18547cdf9430c02885633e94a3))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `4.2.0` to `4.2.1`
+* **@mxjs/a-form:** upgrade from `4.1.1` to `5.0.0`
+* **@mxjs/app:** upgrade from `0.8.3` to `0.8.4`
+* **@mxjs/test:** upgrade from `2.0.4` to `2.0.5`
+* **@miaoxing/app:** upgrade from `0.10.5` to `0.10.6`
+* **@miaoxing/user:** upgrade from `0.5.26` to `0.5.27`
+* **@miaoxing/wechat:** upgrade from `0.1.39` to `0.1.40`
+* **@miaoxing/payment:** upgrade from `0.1.63` to `0.1.64`
+
 ## [0.3.7](https://github.com/miaoxing/wechat-mp/compare/v0.3.6...v0.3.7) (2024-09-30)
 
 
