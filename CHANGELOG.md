@@ -1,3 +1,14 @@
+## [0.3.9](https://github.com/miaoxing/wechat-mp/compare/v0.3.8...v0.3.9) (2024-11-03)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/user:** upgrade from `0.5.27` to `0.5.28`
+* **@miaoxing/payment:** upgrade from `0.1.64` to `0.1.65`
+
 ## [0.3.8](https://github.com/miaoxing/wechat-mp/compare/v0.3.7...v0.3.8) (2024-11-01)
 
 

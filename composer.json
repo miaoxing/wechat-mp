@@ -9,9 +9,9 @@
   "license": "MIT",
   "require": {
     "miaoxing/app": "^0.10.6",
-    "miaoxing/user": "^0.5.27",
+    "miaoxing/user": "^0.5.28",
     "miaoxing/wechat": "^0.1.40",
-    "miaoxing/payment": "^0.1.64"
+    "miaoxing/payment": "^0.1.65"
   },
   "require-dev": {
     "miaoxing/dev": "^9.2.0"
