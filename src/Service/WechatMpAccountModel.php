@@ -31,6 +31,15 @@ class WechatMpAccountModel extends BaseModel
     ];
 
     /**
+     * @var string[]
+     */
+    protected $envVersions = [
+        1 => 'develop',
+        2 => 'trial',
+        3 => 'release',
+    ];
+
+    /**
      * 获取当前账号的微信 API 服务
      *
      * @return WechatApi
@@ -53,5 +62,13 @@ class WechatMpAccountModel extends BaseModel
     public function getMiniProgramState(): string
     {
         return $this->miniProgramStats[$this->env];
+    }
+
+    /**
+     * @return string
+     */
+    public function getEnvVersion(): string
+    {
+        return $this->envVersions[$this->env];
     }
 }
