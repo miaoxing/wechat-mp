@@ -1,3 +1,23 @@
+## [0.3.10](https://github.com/miaoxing/wechat-mp/compare/v0.3.9...v0.3.10) (2024-11-30)
+
+
+### Features
+
+* **wechat-mp:** 账号增加 `getEnvVersion` 方法用于返回环境名称给生成二维码使用 ([06ce47b](https://github.com/miaoxing/wechat-mp/commit/06ce47b4f6e2b29e596e261ea3ff6ea92acff3d9))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `4.2.1` to `4.3.0`
+* **@mxjs/a-form:** upgrade from `5.0.0` to `5.1.0`
+* **@miaoxing/app:** upgrade from `0.10.6` to `0.10.7`
+* **@miaoxing/user:** upgrade from `0.5.28` to `0.5.29`
+* **@miaoxing/wechat:** upgrade from `0.1.40` to `0.1.41`
+* **@miaoxing/payment:** upgrade from `0.1.65` to `0.1.66`
+
 ## [0.3.9](https://github.com/miaoxing/wechat-mp/compare/v0.3.8...v0.3.9) (2024-11-03)
 
 
