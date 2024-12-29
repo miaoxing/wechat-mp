@@ -9,8 +9,8 @@
     "plugins/*"
   ],
   "dependencies": {
-    "react": ">=16.13.1",
-    "react-dom": ">=16.13.1",
+    "react": ">=16.13.1 <19",
+    "react-dom": ">=16.13.1 <19",
     "@mxjs/a-page": "^4.3.0",
     "@mxjs/a-form": "^5.1.0",
     "@mxjs/a-section": "^1.2.0",
