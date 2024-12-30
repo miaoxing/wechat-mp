@@ -1,3 +1,28 @@
+## [0.3.11](https://github.com/miaoxing/wechat-mp/compare/v0.3.10...v0.3.11) (2024-12-30)
+
+
+### Bug Fixes
+
+* 限制 react 版本低于 19，避免测试失败 ([e868cf5](https://github.com/miaoxing/wechat-mp/commit/e868cf543e2d3bb1cfd98d93b0b1d04c050a0aa1))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-page:** upgrade from `4.3.0` to `4.3.1`
+* **@mxjs/a-form:** upgrade from `5.1.0` to `5.2.0`
+* **@mxjs/a-section:** upgrade from `1.2.0` to `1.2.1`
+* **miaoxing:** upgrade from `0.4.19` to `0.4.20`
+* **@mxjs/app:** upgrade from `0.8.4` to `0.8.5`
+* **@miaoxing/dev:** upgrade from `9.2.0` to `9.3.0`
+* **@mxjs/test:** upgrade from `2.0.5` to `2.0.6`
+* **@miaoxing/app:** upgrade from `0.10.7` to `0.10.8`
+* **@miaoxing/user:** upgrade from `0.5.29` to `0.5.30`
+* **@miaoxing/wechat:** upgrade from `0.1.41` to `0.1.42`
+* **@miaoxing/payment:** upgrade from `0.1.66` to `0.1.67`
+
 ## [0.3.10](https://github.com/miaoxing/wechat-mp/compare/v0.3.9...v0.3.10) (2024-11-30)
 
 
