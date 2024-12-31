@@ -7,7 +7,7 @@ exports[`admin/wechat-mp/account index 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "/api/admin/wechat-mp/account",
+        "url": "wechat-mp/account",
       },
     ],
   ],
@@ -30,7 +30,7 @@ exports[`admin/wechat-mp/account index 2`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "/api/admin/wechat-mp/account",
+        "url": "wechat-mp/account",
       },
     ],
     Array [
@@ -44,7 +44,7 @@ exports[`admin/wechat-mp/account index 2`] = `
         },
         "loading": true,
         "method": "patch",
-        "url": "/api/admin/wechat-mp/account",
+        "url": "wechat-mp/account",
       },
     ],
   ],
